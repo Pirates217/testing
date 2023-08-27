@@ -44,7 +44,7 @@ const connectDB = async () => {
 
 connectDB().then(() => {
   const PORT = process.env.PORT || 8080;
-  app.listen(port, function () {
+  app.listen(PORT, function () {
     console.log("Server started sucessfully");
   });
 })
